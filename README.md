@@ -17,6 +17,8 @@ The detailed description of metrics can be found from these studies:
 4. S. Yatish, J. Jiarpakdee, P. Thongtanunam, and C. Tantithamthavorn, “Mining software defects: Should we consider affected releases?,” In Proc. IEEE/ACM 41st Int. Conf. Software Engineering (ICSE), May 2019, pp. 654–665.
 5. T. Menzies, "PROMISE Software Engineering Repository", http://promise.site.uottawa.ca/SERepository/datasets-page.html, 2004.
 
+# Details of Object Oriented Metrics
+
 WMC: Number of methods defined in a class
 
 CBO: Count the number of classes coupled to class
@@ -54,3 +56,29 @@ AMC: Measures the average method size for each class
 LOC: Counts the total number of lines of code of a class
 
 CC: Counts the number of logically independent paths in a method
+
+# Details of Process Metrics
+
+COMM: The number of Git commits
+
+ADDED LINES: The normalized number of lines added to the module
+
+DEL LINES: The normalized number of lines deleted from the module
+
+ADEV: The number of active developers
+
+DDEV: The number of distinct developers
+
+# Details of Ownership Metrics
+
+MINOR COMMIT: The number of unique developers who have contributed less than 5% of the total code changes (i.e., Git commits) on the module
+
+MINOR LINE: The number of unique developers who have contributed less than 5% of the total lines of code on the module
+
+MAJOR COMMIT: The number of unique developers who have contributed more than 5% of the total code changes (i.e., Git commits) on the module
+
+MAJOR LINE: The number of unique developers who have contributed more than 5% of the total lines of code on the module
+
+OWN COMMIT: The proportion of code changes (i.e., Git commits) made bythe developer who has the highest contribution of code changes on the module
+
+OWN LINE: The proportion of lines of code written by the developer who has the highest contribution of lines of code on the module
