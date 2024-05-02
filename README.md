@@ -17,7 +17,9 @@ The detailed description of metrics can be found from these studies:
 4. S. Yatish, J. Jiarpakdee, P. Thongtanunam, and C. Tantithamthavorn, “Mining software defects: Should we consider affected releases?,” In Proc. IEEE/ACM 41st Int. Conf. Software Engineering (ICSE), May 2019, pp. 654–665.
 
 WMC: Number of methods defined in a class
+
 CBO: Count the number of classes coupled to class
+
 RFC: Count the number of distinct methods invoke by a class in response to a received message
 DIT: Depth of a class within the class hierarchy from the root of inheritance
 NOC: Number of immediate descendants of a class
