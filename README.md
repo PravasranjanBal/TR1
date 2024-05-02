@@ -7,8 +7,7 @@ All datasets are open source datasets and are available at
    
 3. S. Yatish, J. Jiarpakdee, P. Thongtanunam, and C. Tantithamthavorn, “Mining software defects: Should we consider affected releases?,” In Proc. IEEE/ACM 41st Int. Conf. Software Engineering (ICSE), May 2019, pp. 654–665.
 
-# Examples of SDP and CPDP
-The Software Defect Prediction (SDP) model generally predicts future software defects from historical data using the Within Project Defect Prediction (WPDP) scenario. In the WPDP scenario, the SDP model is trained and tested on different ratios of a single dataset. The SDP model always works well when sufficient training modules/samples are available. However, in practice, most software defect datasets are small in size. Since the SDP model is generally trained using the WPDP scenario, it is very difficult to train any classifier/ machine learning algorithm using small-size datasets. So, Cross Project Defect Prediction (CPDP) is the best choice for training the SDP model. In the CPDP scenario, the SDP model is trained and tested using different datasets. In other words, we might get a training dataset with a large size for training any classifier in the CPDP scenario. 
+
 
 # Details of Metrics
 The detailed description of metrics can be found from these studies:
