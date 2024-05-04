@@ -10,7 +10,7 @@ All datasets are open source datasets and are available at
 
 
 # Details of Metrics
-The detailed description of metrics can be found from these studies:
+The detailed description of metrics can be found from these studies/following link:
 1. M. Jureczko, “Significance of different software metrics in defect prediction,” Softw. Eng. Int. J., vol. 1, no. 1, pp. 86–95, 2011.
 2. C. Tantithamthavorn, “An R package of Defect PredictionDatasets for Software Engineering Research”, https://github.com/klainfo/DefectData/tree/master/inst/extdata/terapromise, 2015.
 3. M. D’Ambros, M. Lanza, and R. Robbes, “An extensive comparisonof bug prediction approaches,” In 2010 7th IEEE Working Conference on Mining Software Repositories, 2010, pp. 31-41.
