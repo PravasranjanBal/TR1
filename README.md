@@ -82,3 +82,25 @@ MAJOR LINE: The number of unique developers who have contributed more than 5% of
 OWN COMMIT: The proportion of code changes (i.e., Git commits) made bythe developer who has the highest contribution of code changes on the module
 
 OWN LINE: The proportion of lines of code written by the developer who has the highest contribution of lines of code on the module
+
+# Details of McCabe and Halstead Metrics
+
+loc             : McCabe's line count of code
+v(g)            : McCabe "cyclomatic complexity"
+ev(g)           : McCabe "essential complexity"
+iv(g)           : McCabe "design complexity"
+n               : Halstead total operators + operands
+v               : Halstead "volume"
+l               : Halstead "program length"
+d               : Halstead "difficulty"
+i               : Halstead "intelligence"
+e               : Halstead "effort"
+t               : Halstead's time estimator
+lOCode          : Halstead's line count
+lOComment       : Halstead's count of lines of comments
+lOBlank         : Halstead's count of blank line
+uniq_Op         : unique operators
+uniq_Opnd       : unique operands
+total_Op        : total operators
+total_Opnd      : total operands
+branchCount     : Number of the flow graph
